@@ -1,0 +1,6 @@
+<?php
+$con = mysqli_connect("localhost", "pms", "Rakshi@24", "pms");
+if (!$con) {
+    die("not connected");
+}
+?>
